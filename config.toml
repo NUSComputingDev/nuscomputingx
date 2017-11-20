@@ -84,29 +84,30 @@ googleAnalytics = ""
 
   # Services section
   [params.services]
-    enable = false
+    enable = true
     title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    description = "The Computing Club manages the following services and portals."
 
     [[params.services.row]]
 
-    [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      [[params.services.row.list]]
+        icon = "fa-graduation-cap"
+        title = "Academic Liaison"
+        description = "For students who need help with their studies or are confuse with the academic administration."
+        url = "https://acad.nuscomputing.com/"
 
-    [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      [[params.services.row.list]]
+        icon = "fa-calendar"
+        title = "Noticeboard"
+        description = "For members who want to keep track with the latest events happening in SoC."
+        url = "https://noticeboard.nuscomputing.com/"
 
-    [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      [[params.services.row.list]]
+        icon = "fa-users"
+        title = "FOP"
+        description = "For incoming freshman who wants to find out more about the school or to make friends and have fun."
+        url = "https://freshmen.nuscomputing.com/"
+
 
   # Events section
   [params.events]
@@ -116,7 +117,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Events"
-    subtitle = "The Computing Club organises events for its members to help create bonds and foster a sense of family between its members. We urge all club members to come down for our events and mingle with your fellow students!"
+    description = "The Computing Club organises events for its members to help create bonds and foster a sense of family between its members. We urge all club members to come down for our events and mingle with your fellow students!"
 
     [params.events.modal]
       sponsor = "sponsor"
@@ -166,7 +167,6 @@ googleAnalytics = ""
     # Possibility to center items
     center = true
     title = "20th Management Committee"
-    subtitle = ""
     description = "Throughout a typical academic year, we organizes various events for its members. There are camps specially designed to assist the incoming freshmen, collaborations with the professors to provide addtional assistance to the weaker students, parties for our members who are graduating and many more events! Browse through the website for more information regarding our events and initiatives."
 
     # All team member's pictures are stored under 'static/img/team'.
@@ -313,7 +313,7 @@ googleAnalytics = ""
       position = "Deputy Director of Student Relations"
 
   # Sponsor section
-    [params.sponsors]
+  [params.sponsors]
       enable = true
       # Possibility to center items
       center = true
