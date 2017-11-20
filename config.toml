@@ -50,7 +50,7 @@ googleAnalytics = ""
     # Optional logo as brand stored in img/
     logo = "logos/nuscomputing.png"
     services = "Services"
-    portfolio = "Events"
+    events = "Events"
     about = "About"
     team = "Team"
     contact = "Contact"
@@ -107,8 +107,8 @@ googleAnalytics = ""
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
-  # Portfolio section
-  [params.portfolio]
+  # Events section
+  [params.events]
     enable = true
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
@@ -117,7 +117,7 @@ googleAnalytics = ""
     title = "Events"
     subtitle = "The Computing Club organises events for its members to help create bonds and foster a sense of family between its members. We urge all club members to come down for our events and mingle with your fellow students!"
 
-    [params.portfolio.modal]
+    [params.events.modal]
       client = "Client"
       date = "Date"
       category = "Category"

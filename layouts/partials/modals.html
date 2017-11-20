@@ -1,6 +1,6 @@
-{{ "<!-- Portfolio Modals -->" | safeHTML }}
+{{ "<!-- Events Modals -->" | safeHTML }}
 {{ range .Site.Data.projects }}
-  <div class="portfolio-modal modal fade" id="portfolioModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="events-modal modal fade" id="eventsModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
         <div class="lr">
@@ -15,10 +15,10 @@
               <h2>{{ .title  | markdownify }}</h2>
               <h4 class="text-muted">{{ .date | dateFormat "02 Jan 2006" }}</h4>
               <br>
-              {{ $url := printf "img/portfolio/%s" .img }}
+              {{ $url := printf "img/events/%s" .img }}
               <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
               <p>{{ .description | markdownify }}</p>
-              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . }}{{ end }}</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.events.modal.buttonText }}{{ . }}{{ end }}</button>
             </div>
           </div>
         </div>

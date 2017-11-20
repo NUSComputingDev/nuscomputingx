@@ -8,7 +8,7 @@
     </div>
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 text-center">
-        <p class="large text-muted">{{ with .Site.Params.team.description }}{{ . | markdownify }}{{ end }}</p>
+        <p class="large text-muted gap-bottom">{{ with .Site.Params.team.description }}{{ . | markdownify }}{{ end }}</p>
         <br>
       </div>
     </div>
@@ -21,14 +21,14 @@
             <h3>{{ .name | markdownify }}</h3>
 
             {{ with .position }}
-            <h4>{{ . | markdownify }}</h4>
+            <h5>{{ . | markdownify }}</h5>
             {{ end }}
             {{ with .reportsTo }}
-            <h5 class="report">Reports to {{ . | markdownify }}</h5>
+            <h6 class="report">Reports to {{ . | markdownify }}</h6>
             {{ end }}
 
             {{ with .livesIn }}
-            <h5>Lives in {{ . | markdownify }}</h5>
+            <h6>Lives in {{ . | markdownify }}</h6>
             {{ end }}
 
             {{ with .scope }}
