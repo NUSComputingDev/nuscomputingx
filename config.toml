@@ -53,6 +53,7 @@ googleAnalytics = ""
     events = "Events"
     about = "About"
     team = "Team"
+    sponsors = "Sponsors"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -118,7 +119,7 @@ googleAnalytics = ""
     subtitle = "The Computing Club organises events for its members to help create bonds and foster a sense of family between its members. We urge all club members to come down for our events and mingle with your fellow students!"
 
     [params.events.modal]
-      client = "Client"
+      sponsor = "sponsor"
       date = "Date"
       category = "Category"
       buttonText = "Close project"
@@ -311,182 +312,182 @@ googleAnalytics = ""
       name = "Jeremy Lim"
       position = "Deputy Director of Student Relations"
 
-  # Client section
-    [params.clients_list]
+  # Sponsor section
+    [params.sponsors]
       enable = true
       # Possibility to center items
       center = true
-      # Optional client title specifying the involvement
+      # Optional sponsor title specifying the involvement
       #title = "Used and trusted by"
 
-      # All the clients' logos are stored under 'static/img/logos'.
-      # Replace them with your clients's logos.
+      # All the sponsors' logos are stored under 'static/img/logos'.
+      # Replace them with your sponsors's logos.
       # Suggestion: .svg in the size of 280px*80px looks good
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "300-positive.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "90s-candy-society.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "accenture.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "aptus.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "atlantic-optical.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "ban-choon.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "bnp-paribas.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "botak-jones.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "bubble-bump.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "chat.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "crimsonlogic.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "csit.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "dso.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "forest-adventure.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "glints.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "gogo-van.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "gumtree.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "happi.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "im-kim.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "ippin.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "jetaime.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "jetbrains.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "kokomama.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "laffio.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "matchaya.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "mgp.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "milkcow.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "paper-innovation.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "playnation.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "pokka.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "shopback.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "singapore-pub-crawl.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "singapore-world-water-day.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "sta-travel.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "the-manhattan-fish-market.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "triple-dry.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "uber.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "viewqwest.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "woods.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "yakult.png"
         link = "#"
       
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "zalora.png"
         link = "#"
 
-      [[params.clients]]
+      [[params.sponsor]]
         logo = "zookal.png"
         link = "#"
 

@@ -1,14 +1,14 @@
-{{ "<!-- Clients Aside -->" | safeHTML }}
-<aside class="clients">
+{{ "<!-- Sponsors Aside -->" | safeHTML }}
+<aside id="sponsors" class="sponsors">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h4 class="heading">{{ with .Site.Params.clients_list.title }}{{ . | markdownify }}{{ end }}</h4>
+        <h4 class="heading">{{ with .Site.Params.sponsors.title }}{{ . | markdownify }}{{ end }}</h4>
       </div>
     </div>
-    <div class="row flexbox{{ if .Site.Params.clients_list.center }} flexbox-center{{ end }}">
+    <div class="row flexbox{{ if .Site.Params.sponsors.center }} flexbox-center{{ end }}">
 
-      {{ range .Site.Params.clients }}
+      {{ range .Site.Params.sponsor }}
         <div class="col-md-2 col-sm-4 col-xs-4 col">
           {{ $url := printf "img/logos/%s" .logo }}
           {{ if .link }}
