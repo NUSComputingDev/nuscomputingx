@@ -318,7 +318,8 @@ googleAnalytics = ""
       # Possibility to center items
       center = true
       # Optional sponsor title specifying the involvement
-      #title = "Used and trusted by"
+      title = "Sponsors"
+      description = "We would like to thank our sponsors for supporting our events and believing in us throughout the years. We hope to continue this beneficial working relationship with our sponsors and hope to forge more relationships with organisations that may want to support us as well. Please contact us at connect{at}nuscomputing{dot}com if you would like to be a supporter for our future events!"
 
       # All the sponsors' logos are stored under 'static/img/logos'.
       # Replace them with your sponsors's logos.
