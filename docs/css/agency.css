@@ -731,13 +731,20 @@ section h3.section-subheading {
 }
 
 @media(min-width:992px) {
-    aside.clients img {
+    section#sponsors img {
         margin: 50px auto;
     }
 }
 
-aside.clients img {
+section#sponsors img {
     margin-top: 50px;
+}
+
+section#sponsors .heading {
+    text-transform: none;
+    color: #777;
+    margin-top: 20px;
+    margin-bottom: -40px;
 }
 
 aside .heading {
