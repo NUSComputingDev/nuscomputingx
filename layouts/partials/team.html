@@ -16,7 +16,7 @@
         <div class="col-md-3 col-sm-4 col-xs-6 col">
           <div class="team-member">
             {{ $url := printf "img/team/%s" .img }}
-            <img src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}">
+            <img data-src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}">
             <h3>{{ .name | markdownify }}</h3>
 
             {{ with .position }}
