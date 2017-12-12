@@ -23,11 +23,11 @@
             </div>
             {{ $url := printf "img/events/%s" .preview }}
             <img src="{{ $url | absURL }}" class="img-responsive" alt="">
+            <div class="events-caption">
+              <h4>{{ .title | markdownify }}</h4>
+              <h4 class="text-muted">{{ .date | dateFormat "02 Jan 2006" }}</h4>
+            </div>
           </a>
-          <div class="events-caption">
-            <h4>{{ .title | markdownify }}</h4>
-            <h4 class="text-muted">{{ .date | dateFormat "02 Jan 2006" }}</h4>
-          </div>
         </div>
       {{ end }}
     </div>
