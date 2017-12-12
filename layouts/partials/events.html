@@ -16,18 +16,13 @@
       {{ range sort .Site.Data.projects ".date" "desc" }}
         <div class="col-md-4 col-sm-6 events-item">
           <a href="#eventsModal{{ .modalID }}" class="events-link" data-toggle="modal">
-            <div class="events-hover">
-              <div class="events-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
             {{ $url := printf "img/events/%s" .preview }}
             <img src="{{ $url | absURL }}" class="img-responsive" alt="">
+            <div class="events-caption">
+              <h4>{{ .title | markdownify }}</h4>
+              <h4 class="text-muted">{{ .date | dateFormat "02 Jan 2006" }}</h4>
+            </div>
           </a>
-          <div class="events-caption">
-            <h4>{{ .title | markdownify }}</h4>
-            <h4 class="text-muted">{{ .date | dateFormat "02 Jan 2006" }}</h4>
-          </div>
         </div>
       {{ end }}
     </div>
