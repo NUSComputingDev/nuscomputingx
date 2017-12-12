@@ -17,7 +17,7 @@
         <div class="col-md-4 col-sm-6 events-item">
           <a href="#eventsModal{{ .modalID }}" class="events-link" data-toggle="modal">
             {{ $url := printf "img/events/%s" .preview }}
-            <img src="{{ $url | absURL }}" class="img-responsive" alt="">
+            <img data-src="{{ $url | absURL }}" class="img-responsive" alt="">
             <div class="events-caption">
               <h4>{{ .title | markdownify }}</h4>
               <h4 class="text-muted">{{ .date | dateFormat "02 Jan 2006" }}</h4>

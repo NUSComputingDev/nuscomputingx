@@ -20,7 +20,7 @@ Don't fret, however! There is an easy way to do so, using Hugo's built-in server
 You may want to run Hugo's server with the following flags, like so:
 
 ``` bash
-$ hugo server -w -t hugo-type-theme
+$ hugo server -w -t hugo-agency-theme
 ```
 
 ### Testing
@@ -35,7 +35,7 @@ Once you are satisfied with the results, you can build the static website using 
 $ hugo
 ```
 
-The result will be placed in the `public/` directory.
+The result will be placed in the `docs/` directory.
 
 ## Development/Website Guides
 
