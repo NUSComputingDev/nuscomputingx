@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on NUS Students&#39; Computing Club</title>
-    <link>https://nuscomputingdev.github.io/nuscomputing-2017/categories/</link>
+    <link>https://nuscomputingdev.github.io/nuscomputingx/categories/</link>
     <description>Recent content in Categories on NUS Students&#39; Computing Club</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://nuscomputingdev.github.io/nuscomputing-2017/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nuscomputingdev.github.io/nuscomputingx/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

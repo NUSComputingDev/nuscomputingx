@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://nuscomputingdev.github.io/nuscomputingx/"
+baseurl = "https://nuscomputingdev.github.io/nuscomputing-2017/"
 languageCode = "en-us"
 title = "NUS Students' Computing Club"
 theme = "hugo-agency-theme"
