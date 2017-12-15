@@ -354,6 +354,11 @@ section h2.section-heading {
     font-size: 40px;
 }
 
+section h2.section-subheading {
+    margin-bottom: 75px;
+    font-size: 25px;
+}
+
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
@@ -652,19 +657,19 @@ section h3.section-subheading {
 }
 
 .flexbox {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: stretch;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: stretch;
 }
 
 .flexbox-center {
-  justify-content: center;
+    justify-content: center;
 }
 
 .team-member {
@@ -680,6 +685,11 @@ section h3.section-subheading {
 .team-member p {
     margin-top: 0;
 }
+
+.team-member h3 {
+    font-weight: 400;
+}
+
 .team-member h4 {
     font-size: 16px;
     text-transform: none;
@@ -970,4 +980,4 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
-}-
+}
