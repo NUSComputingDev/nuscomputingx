@@ -1,5 +1,5 @@
 # nuscomputing.com
-![nuscomputinx](https://img.shields.io/badge/nuscomputing-x-blue.svg)
+![nuscomputingx](https://img.shields.io/badge/nuscomputing-x-blue.svg)
 
 ## Development Guide
 
