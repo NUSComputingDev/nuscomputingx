@@ -21,19 +21,23 @@ googleAnalytics = ""
   name = "Computing Club"
   description = "We are the official student club of NUS School of Computing. We plan events for the undergraduate student body and ensure that students' welfare is taken care of. We organise fun social activities, games, sports and camps to complement the rigourous coursework that students go through daily."
 
+
   # Link custom assets relative to /static
   custom_css = []
   custom_js  = []
   favicon    = "favicon.ico"
 
+
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
   disableFonts = false
+
 
   # 404 error customization
   [params.error404]
     heading = "Page couldn't be found"
     text = "Please visit [this page](/)"
+
 
   # Optional piwik tracking
   #[params.analytics.piwik]
@@ -43,6 +47,7 @@ googleAnalytics = ""
   #  domain = "www.example.com"
   #  # Optional integrity check hash
   #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
 
   # Navigation
   [params.navigation]
@@ -79,7 +84,7 @@ googleAnalytics = ""
     # the 'static/img' folder.
     title = "Welcome to NUS Computing Club"
     subtitle = "It's nice to meet you"
-    buttonText = "Learn more"
+    buttonText = "What's Up"
 
 
   # Services section
@@ -126,7 +131,7 @@ googleAnalytics = ""
       buttonText = "Close project"
 
 
-    # About section
+  # About section
   [params.about]
     enable = false
     title = "About"
@@ -165,9 +170,10 @@ googleAnalytics = ""
   [params.team]
     enable = true
     # Possibility to center items
-    center = true
+    center = false
     title = "20th Management Committee"
     description = "Throughout a typical academic year, we organizes various events for its members. There are camps specially designed to assist the incoming freshmen, collaborations with the professors to provide addtional assistance to the weaker students, parties for our members who are graduating and many more events! Browse through the website for more information regarding our events and initiatives."
+    wings = [ "Presidential Wing", "Student Life", "External Relations", "Internal Relations", "Student Development" ]
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -176,141 +182,170 @@ googleAnalytics = ""
       img = "JoelLim.jpg"
       name = "Joel Lim"
       position = "President"
+      wing = "Presidential Wing"
 
     [[params.team.members]]
       img = "TsaiYuHsuan.jpg"
       name = "Tsai Yu Hsuan"
       position = "General Secretary"
+      wing = "Presidential Wing"
 
     [[params.team.members]]
       img = "NgCheeSiang.jpg"
       name = "Ng Chee Siang"
       position = "Assistant General Secretary"
+      wing = "Presidential Wing"
 
     [[params.team.members]]
       img = "JasonYip.jpg"
       name = "Jason Yip"
       position = "Finance Secretary"
+      wing = "Presidential Wing"
 
     [[params.team.members]]
       img = "LeeShiMing.jpg"
       name = "Lee Shi Ming"
       position = "Assistant Finance Secretary"
+      wing = "Presidential Wing"
 
     [[params.team.members]]
       img = "EugeneLim.jpg"
       name = "Eugene Lim"
       position = "IT Secretary"
+      wing = "Presidential Wing"
 
     [[params.team.members]]
       img = "ChngZhiXuan.jpg"
       name = "Chng Zhi Xuan"
       position = "Assistant General Secretary"
+      wing = "Presidential Wing"
 
     [[params.team.members]]
       img = "YeoKianWee.jpg"
       name = "Yeo Kian Wee"
       position = "Vice President (External Relations)"
+      wing = "External Relations"
 
     [[params.team.members]]
       img = "LawrenceLim.jpg"
       name = "Lawrence Lim"
       position = "Director of Publicity"
+      wing = "External Relations"
 
     [[params.team.members]]
       img = "RebeccaTan.jpg"
       name = "Rebecca Tan"
       position = "Deputy Director of Publicity"
+      wing = "External Relations"
 
     [[params.team.members]]
       img = "GervaiseAng.jpg"
       name = "Gervaise Ang"
       position = "Director of Marketing"
+      wing = "External Relations"
 
     [[params.team.members]]
       img = "KevinAlvarez.jpg"
       name = "Kevin Alvarez"
       position = "Deputy Director of Marketing (Sponsorship)"
+      wing = "External Relations"
 
     [[params.team.members]]
       img = "ClarisseLim.jpg"
       name = "Clarisse Lim"
       position = "Deputy Director of Marketing (Merchandise)"
+      wing = "External Relations"
 
     [[params.team.members]]
       img = "AmandaTan.jpg"
       name = "Amanda Tan"
       position = "Vice President (Internal Relations)"
+      wing = "Internal Relations"
 
     [[params.team.members]]
       img = "IanTan.jpg"
       name = "Ian Tan"
       position = "Director of Welfare"
+      wing = "Internal Relations"
 
     [[params.team.members]]
       img = "LowRuiJia.jpg"
       name = "Low Rui Jia"
       position = "Deputy Director of Welfare"
+      wing = "Internal Relations"
 
     [[params.team.members]]
       img = "ShannonKok.jpg"
       name = "Shannon Kok"
       position = "Director of Sports"
+      wing = "Internal Relations"
 
     [[params.team.members]]
       img = "KerwinKow.jpg"
       name = "Kerwin Kow"
       position = "Deputy Director of Sports"
+      wing = "Internal Relations"
 
     [[params.team.members]]
       img = "ElysiaTan.jpg"
       name = "Elysia Tan"
       position = "Vice President (Student Development)"
+      wing = "Student Development"
 
     [[params.team.members]]
       img = "LeeYiyuan.jpg"
       name = "Lee Yiyuan"
       position = "Director of Academic Liaison"
+      wing = "Student Development"
 
     [[params.team.members]]
       img = "GabrielTan.jpg"
       name = "Gabriel Tan"
       position = "Deputy Director of Academic Liaison"
+      wing = "Student Development"
 
     [[params.team.members]]
       img = "TanWeiLi.jpg"
       name = "Tan Wei Li"
       position = "Director of Community Service"
+      wing = "Student Development"
 
     [[params.team.members]]
       img = "ZhaoJunRu.jpg"
       name = "Zhao Jun Ru"
       position = "Deputy Director of Community Service"
+      wing = "Student Development"
       
     [[params.team.members]]
       img = "JoelSim.jpg"
       name = "Joel Sim"
       position = "Vice President (Student Life)"
+      wing = "Student Life"
 
     [[params.team.members]]
       img = "VanessaLoh.jpg"
       name = "Vanessa Loh"
       position = "Director of Freshmen Orientation Projects"
+      wing = "Student Life"
 
     [[params.team.members]]
       img = "FrancisLee.jpg"
       name = "Francis Lee"
       position = "Deputy Director of Freshmen Orientation Projects"
+      wing = "Student Life"
 
     [[params.team.members]]
       img = "LimSingJie.jpg"
       name = "Lim Sing Jie"
       position = "Director of Student Relations"
+      wing = "Student Life"
 
     [[params.team.members]]
       img = "JeremyLim.jpg"
       name = "Jeremy Lim"
       position = "Deputy Director of Student Relations"
+      wing = "Student Life"
+
 
   # Sponsor section
   [params.sponsors]
@@ -492,6 +527,7 @@ googleAnalytics = ""
         logo = "zookal.png"
         link = "#"
 
+
   # Contact section
   [params.contact]
     enable = false
@@ -548,6 +584,7 @@ googleAnalytics = ""
       #[[params.contact.form.hidden]]
       # Special values for name such as "page" and "site" will be autofilled
       #  name = "page"
+
 
   # Footer section
   [params.footer]
