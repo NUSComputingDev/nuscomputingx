@@ -82,9 +82,10 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome to NUS Computing Club"
-    subtitle = "It's nice to meet you"
-    buttonText = "What's Up"
+    title = "Camp SALVOS"
+    subtitle = "SoC Sports Camp 2018"
+    buttonText = "Learn more"
+    buttonLink = "#events"
 
 
   # Services section
