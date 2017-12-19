@@ -884,9 +884,12 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
+.events-modal {
+    margin: 0 6% 0;
+}
+
 .events-modal .modal-content {
     padding: 100px 0;
-    min-height: 100%;
     border: 0;
     border-radius: 0;
     text-align: center;
