@@ -1,6 +1,6 @@
 {{ "<!-- Events Modals -->" | safeHTML }}
-{{ range .Site.Data.projects }}
-  <div class="events-modal modal fade" id="eventsModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+{{ range $index, $project := .Site.Data.projects }}
+  <div class="events-modal modal fade" id="eventsModal-{{ $index }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
         <div class="lr">
