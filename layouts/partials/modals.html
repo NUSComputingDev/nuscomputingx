@@ -18,7 +18,6 @@
               {{ $url := printf "img/events/%s" .img }}
               <img class="img-responsive img-centered" data-src="{{ $url | absURL }}" alt="">
               <p>{{ .description | markdownify }}</p>
-              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.events.modal.buttonText }}{{ . }}{{ end }}</button>
             </div>
           </div>
         </div>
