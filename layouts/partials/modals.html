@@ -1,5 +1,5 @@
 {{ "<!-- Events Modals -->" | safeHTML }}
-{{ range $index, $project := .Site.Data.projects }}
+{{ range $index, $project := sort .Site.Data.projects ".date" "desc" }}
   <div class="events-modal modal fade" id="eventsModal-{{ $index }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">

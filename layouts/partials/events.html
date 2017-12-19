@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="row">
-      {{ range $index, $project := .Site.Data.projects }}
+      {{ range $index, $project := sort .Site.Data.projects ".date" "desc" }}
         <div class="col-md-4 col-sm-6 events-item">
           <a href="#eventsModal-{{ $index }}" class="events-link" data-toggle="modal">
             {{ $url := printf "img/events/%s" .preview }}
