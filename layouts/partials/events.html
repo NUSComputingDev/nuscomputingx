@@ -13,9 +13,9 @@
       </div>
     </div>
     <div class="row">
-      {{ range sort .Site.Data.projects ".date" "desc" }}
+      {{ range $index, $project := sort .Site.Data.projects ".date" "desc" }}
         <div class="col-md-4 col-sm-6 events-item">
-          <a href="#eventsModal{{ .modalID }}" class="events-link" data-toggle="modal">
+          <a href="#eventsModal-{{ $index }}" class="events-link" data-toggle="modal">
             {{ $url := printf "img/events/%s" .preview }}
             <img data-src="{{ $url | absURL }}" class="img-responsive" alt="">
             <div class="events-caption">
