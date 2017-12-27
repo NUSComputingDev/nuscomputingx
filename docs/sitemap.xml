@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://beta.nuscomputing.com/categories/</loc>
+    <loc>https://nuscomputing.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://beta.nuscomputing.com/</loc>
+    <loc>https://nuscomputing.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://beta.nuscomputing.com/tags/</loc>
+    <loc>https://nuscomputing.com/tags/</loc>
     <priority>0</priority>
   </url>
   
