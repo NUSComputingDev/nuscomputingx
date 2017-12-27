@@ -1,4 +1,4 @@
-# nuscomputing.com
+# nuscomputingx
 ![nuscomputingx](https://img.shields.io/badge/nuscomputing-x-blue.svg)
 
 ## Development Guide
