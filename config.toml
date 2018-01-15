@@ -82,8 +82,8 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Camp SALVOS"
-    subtitle = "SoC Sports Camp 2018"
+    title = "Freshmen Orientation Program"
+    subtitle = "OHH Recruitment"
     buttonText = "Learn more"
     buttonLink = "#events"
 
