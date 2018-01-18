@@ -111,7 +111,7 @@ googleAnalytics = ""
       [[params.services.row.list]]
         icon = "fa-users"
         title = "FOP"
-        description = "For incoming freshman who wants to find out more about the school or to make friends and have fun."
+        description = "For incoming freshmen who want to find out more about the school or to make friends and have fun."
         url = "https://freshmen.nuscomputing.com/"
 
 
