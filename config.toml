@@ -83,9 +83,9 @@ googleAnalytics = ""
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "Freshmen Orientation Program"
-    subtitle = "OHH Recruitment"
+    subtitle = "Coming Soon"
     buttonText = "Learn more"
-    buttonLink = "#events"
+    buttonLink = "https://freshmen.nuscomputing.com"
 
 
   # Services section
@@ -173,7 +173,7 @@ googleAnalytics = ""
     # Possibility to center items
     center = false
     title = "20th Management Committee"
-    description = "Throughout a typical academic year, we organizes various events for its members. There are camps specially designed to assist the incoming freshmen, collaborations with the professors to provide addtional assistance to the weaker students, parties for our members who are graduating and many more events! Browse through the website for more information regarding our events and initiatives."
+    description = "Throughout a typical academic year, we organize various events for our members. We have Freshmen Orientation Programmes specially designed to integrate the incoming freshmen into NUS, collaborative projects with our professors to provide additional assistance to weaker students, celebrations for graduating students, and many more events! Browse through our website for more information regarding our events and initiatives!"
     wings = [ "Presidential Wing", "Student Life", "External Relations", "Internal Relations", "Student Development" ]
 
     # All team member's pictures are stored under 'static/img/team'.
@@ -316,7 +316,7 @@ googleAnalytics = ""
       name = "Zhao Jun Ru"
       position = "Deputy Director of Community Service"
       wing = "Student Development"
-      
+
     [[params.team.members]]
       img = "JoelSim.jpg"
       name = "Joel Sim"
@@ -363,7 +363,7 @@ googleAnalytics = ""
       [[params.sponsor]]
         logo = "300-positive.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "90s-candy-society.png"
         link = "#"
@@ -375,11 +375,11 @@ googleAnalytics = ""
       [[params.sponsor]]
         logo = "aptus.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "atlantic-optical.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "ban-choon.png"
         link = "#"
@@ -391,11 +391,11 @@ googleAnalytics = ""
       [[params.sponsor]]
         logo = "botak-jones.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "bubble-bump.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "chat.png"
         link = "#"
@@ -407,11 +407,11 @@ googleAnalytics = ""
       [[params.sponsor]]
         logo = "csit.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "dso.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "forest-adventure.png"
         link = "#"
@@ -423,11 +423,11 @@ googleAnalytics = ""
       [[params.sponsor]]
         logo = "gogo-van.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "gumtree.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "happi.png"
         link = "#"
@@ -439,11 +439,11 @@ googleAnalytics = ""
       [[params.sponsor]]
         logo = "ippin.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "jetaime.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "jetbrains.png"
         link = "#"
@@ -455,11 +455,11 @@ googleAnalytics = ""
       [[params.sponsor]]
         logo = "laffio.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "matchaya.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "mgp.png"
         link = "#"
@@ -471,11 +471,11 @@ googleAnalytics = ""
       [[params.sponsor]]
         logo = "paper-innovation.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "playnation.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "pokka.png"
         link = "#"
@@ -487,11 +487,11 @@ googleAnalytics = ""
       [[params.sponsor]]
         logo = "singapore-pub-crawl.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "singapore-world-water-day.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "sta-travel.png"
         link = "#"
@@ -503,11 +503,11 @@ googleAnalytics = ""
       [[params.sponsor]]
         logo = "triple-dry.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "uber.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "viewqwest.png"
         link = "#"
@@ -519,7 +519,7 @@ googleAnalytics = ""
       [[params.sponsor]]
         logo = "yakult.png"
         link = "#"
-      
+
       [[params.sponsor]]
         logo = "zalora.png"
         link = "#"
@@ -599,11 +599,11 @@ googleAnalytics = ""
     [[params.footer.social]]
       icon = "fa-facebook"
       link = "https://www.facebook.com/NUSComputing"
-    
+
     [[params.footer.social]]
       icon = "fa-instagram"
       link = "http://instagram.com/NUSComputingClub"
-    
+
     [[params.footer.social]]
       icon = "fa-youtube"
       link = "https://www.youtube.com/channel/UCVd-qsSFF328UUqcNxudy0w"
