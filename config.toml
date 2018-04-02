@@ -83,7 +83,7 @@ googleAnalytics = ""
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "Freshmen Orientation Programmes"
-    subtitle = "Coming Soon"
+    subtitle = "Sign up now"
     buttonText = "Learn more"
     buttonLink = "https://freshmen.nuscomputing.com"
 
