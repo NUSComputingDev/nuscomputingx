@@ -401,6 +401,10 @@ googleAnalytics = ""
         link = "#"
 
       [[params.sponsor]]
+        logo = "credence.png"
+        link = "#"
+
+      [[params.sponsor]]
         logo = "crimsonlogic.png"
         link = "#"
 
